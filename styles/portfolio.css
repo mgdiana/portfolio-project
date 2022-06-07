@@ -122,6 +122,30 @@ p {
   height: auto;
 }
 
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  font-size: 0.9em;
+}
+.s123 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-right: 0;
+  padding-bottom: 40px;
+  padding-left: 0;
+  font-size: 1em;
+  background-color: #222;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-style: none;
+  border-width: 0;
+  border-color: transparent;
+  box-shadow: none;
+}
+
 img {
   border-radius: 4px;
   max-width: 100%;
