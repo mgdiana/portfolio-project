@@ -65,7 +65,7 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: white;
+  color: var(--backgroung-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -89,7 +89,7 @@ p {
 
 .btn-branding-outline:hover {
   background-color: var(--branding-color);
-  color: white;
+  color: var(--backgroung-color);
 }
 
 .project-desciption {
