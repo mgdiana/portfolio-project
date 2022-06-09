@@ -43,8 +43,11 @@ p {
   font-family: var(--default-font-family);
 }
 p a {
-  color: var(--branding-color);
+  color: var(--backgroung-color);
   text-decoration: none;
+}
+p a:hover {
+  color: var(--branding-color);
 }
 .hero {
   background: var(--secondary-color);
