@@ -40,14 +40,22 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  font-family: var(--default-font-family);
 }
-
+p a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
-
+.hero-contact {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 72px 10px;
+}
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -143,6 +151,10 @@ img {
   height: auto;
 }
 
-.text-white {
+div a {
   text-decoration: none;
+}
+.contact {
+  background-color: var(--secondary-color);
+  padding: 30px;
 }
