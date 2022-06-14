@@ -85,11 +85,13 @@ p a:hover {
   background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
+  opacity: 95%;
 }
 .hero-works {
-  background: var(--secondary-color);
+  background: var(--backgroung-color);
   text-align: center;
-  padding: 100px 5px;
+  padding: 160px 20px;
+  opacity: 95%;
 }
 .hero-contact {
   background: var(--secondary-color);
