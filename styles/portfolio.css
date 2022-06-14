@@ -172,6 +172,7 @@ p a:hover {
   background: var(--backgroung-color);
   font-family: var(--default-font-family);
   font-size: 20px;
+  padding: 20px 0;
 }
 
 .img-fluid {
@@ -206,4 +207,10 @@ div a {
 }
 .fa-link:hover {
   color: var(--branding-color);
+}
+.search {
+  max-width: 8%;
+}
+.programer {
+  max-width: 10%;
 }
