@@ -96,7 +96,8 @@ p a:hover {
 .hero-contact {
   background: var(--secondary-color);
   text-align: center;
-  padding: 72px 10px;
+  padding: 100px 20px;
+  opacity: 50%;
 }
 .hero p {
   font-size: 36px;
@@ -150,6 +151,12 @@ p a:hover {
   padding: 120px 60px;
 }
 
+.skills {
+  max-width: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -175,11 +182,6 @@ p a:hover {
   font-family: var(--default-font-family);
   font-size: 20px;
   padding: 20px 0;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
 }
 
 img {
