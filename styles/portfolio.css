@@ -213,8 +213,11 @@ div a {
   color: var(--branding-color);
 }
 .search {
-  max-width: 8%;
+  max-width: 50px;
+
+  justify-content: space-evenly;
 }
 .programer {
-  max-width: 10%;
+  max-width: 50px;
+  justify-content: space-evenly;
 }
